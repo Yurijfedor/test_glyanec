@@ -166,12 +166,12 @@
               <p class="product-number">/ 04</p>
             </div>
             <div class="slide-switcher">
-              <button class="switch-btn btn-previous" type="button">
+              <button class="switch-btn novelty-btn-previous" type="button">
                 <svg class="icon-switch" width="20" height="20">
                   <use href="./imges/sprite.svg#icon-arrow_left"></use>
                 </svg>
               </button>
-              <button class="switch-btn btn-next" type="button">
+              <button class="switch-btn novelty-btn-next" type="button">
                 <svg class="icon-switch" width="20" height="20">
                   <use href="./imges/sprite.svg#icon-arrow_right"></use>
                 </svg>
@@ -387,11 +387,10 @@
         </div>
       </section>
       <section class="section">
-        <div class="container">
+        <div class="container questens">
           <h2 class="section-title">Залишились питання?</h2>
-          <img src="./imges/questions_section-min.jpg" alt="questens" />
           <div class="form">
-            <h3 class="form title">Замовте консультацію</h3>
+            <h3 class="form-title">Замовте консультацію</h3>
             <form class="user-form">
               <ul class="form-list">
                 <li class="form-field">
@@ -411,87 +410,123 @@
                   />
                 </li>
               </ul>
-              <button type="submit" class="button">Відправити</button>
+              <button type="submit" class="button form-btn">Відправити</button>
             </form>
             <p class="form-text">
-              Залиште заявку або телефонуйте за номером (099) 111 22 33, і наш
+              Залиште заявку або телефонуйте за номером
+              <span style="font-weight: 700">(099) 111 22 33</span> , і наш
               менеджер звяжеться з вами для кваліфікованої консультації.
             </p>
           </div>
         </div>
       </section>
       <footer class="footer">
-        <a href="/" class="logo link">
-          <svg class="logo" width="360" height="75">
-            <use href="./imges/sprite.svg#icon-logo-1"></use>
-          </svg>
-        </a>
         <div class="footer-container">
-          <ul class="footer-category-list">
-            <li class="footer-category-item"><a href="">дивани</a></li>
-            <li class="footer-category-item"><a href="">ліжка</a></li>
-            <li class="footer-category-item"><a href="">крісла</a></li>
-            <li class="footer-category-item"><a href="">шафи</a></li>
-            <li class="footer-category-item"><a href="">кухні</a></li>
-            <li class="footer-category-item"><a href="">комоди</a></li>
-          </ul>
-          <ul class="footer-site-nav">
-            <li class="footer-site-nav-item"><a href="">АкцІї</a></li>
-            <li class="footer-site-nav-item">
-              <a href="">Доставка та оплата</a>
-            </li>
-            <li class="footer-site-nav-item"><a href="">про нас</a></li>
-            <li class="footer-site-nav-item"><a href="">контакти</a></li>
-          </ul>
-          <div class="footer-contacts-wrapp">
-            <ul class="footer-contacts">
-              <li class="footer-contacts-item">
-                <svg class="icon-footer" width="20" height="20">
-                  <use href="./imges/sprite.svg#icon-location"></use>
-                </svg>
-                <p class="footer-contacts-text">TEST</p>
+          <a href="/" class="logo link">
+            <svg class="logo footer-logo" width="360" height="75">
+              <use href="./imges/sprite.svg#icon-logo-1"></use>
+            </svg>
+          </a>
+          <div class="footer-wrapp">
+            <ul class="footer-category-list">
+              <li class="footer-category-item">
+                <a class="link" href="">дивани</a>
               </li>
-              <li class="footer-contacts-item">
-                <svg class="icon-footer" width="20" height="20">
-                  <use href="./imges/sprite.svg#icon-calendar"></use>
-                </svg>
-                <p class="footer-contacts-text">Пн-Пт, з 10 до 18</p>
+              <li class="footer-category-item">
+                <a class="link" href="">ліжка</a>
               </li>
-              <li class="footer-contacts-item">
-                <svg class="contacts-icon" width="16" height="16">
-                  <use href="./imges/sprite.svg#icon-smartphone"></use>
-                </svg>
-                <p class="footer-contacts-text">(099) 111 22 33</p>
-                <p class="footer-contacts-text">(099) 222 33 44</p>
+              <li class="footer-category-item">
+                <a class="link" href="">крісла</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="link" href="">шафи</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="link" href="">кухні</a>
+              </li>
+              <li class="footer-category-item">
+                <a class="link" href="">комоди</a>
               </li>
             </ul>
-            <div class="social-wrapp">
-              <p class="footer-social-text">Ми в соціальних мережах:</p>
-              <ul class="social-items">
-                <li class="social-item">
-                  <a href="">
-                    <svg class="icon-social" width="20" height="20">
-                      <use href="./imges/sprite.svg#icon-telegram"></use>
-                    </svg>
-                  </a>
+            <ul class="footer-site-nav">
+              <li class="footer-site-nav-item">
+                <a class="link" href="">АкцІї</a>
+              </li>
+              <li class="footer-site-nav-item">
+                <a class="link" href="">Доставка та оплата</a>
+              </li>
+              <li class="footer-site-nav-item">
+                <a class="link" href="">про нас</a>
+              </li>
+              <li class="footer-site-nav-item">
+                <a class="link" href="">контакти</a>
+              </li>
+            </ul>
+            <div class="footer-contacts-wrapp">
+              <ul class="footer-contacts">
+                <li class="footer-contacts-item">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./imges/sprite.svg#icon-location"></use>
+                  </svg>
+                  <p class="footer-contacts-text">TEST</p>
                 </li>
-                <li class="social-item">
-                  <a href="">
-                    <svg class="icon-social" width="20" height="20">
-                      <use href="./imges/sprite.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
+                <li class="footer-contacts-item">
+                  <svg class="icon-footer" width="20" height="20">
+                    <use href="./imges/sprite.svg#icon-calendar"></use>
+                  </svg>
+                  <p class="footer-contacts-text">Пн-Пт, з 10 до 18</p>
                 </li>
-                <li class="social-item">
-                  <a href="">
-                    <svg class="icon-social" width="20" height="20">
-                      <use href="./imges/sprite.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
+                <li class="footer-contacts-item">
+                  <svg class="icon-footer" width="14" height="20">
+                    <use href="./imges/sprite.svg#icon-smartphone"></use>
+                  </svg>
+                  <div class="tel-wrapp">
+                    <p class="footer-contacts-text">(099) 111 22 33</p>
+                    <p class="footer-contacts-text">(099) 222 33 44</p>
+                  </div>
                 </li>
               </ul>
+              <div class="social-wrapp">
+                <p class="footer-social-text">Ми в соціальних мережах:</p>
+                <ul class="social-items">
+                  <li class="social-item">
+                    <a class="link" href="">
+                      <svg
+                        class="icon-social icon-social-footer"
+                        width="20"
+                        height="20"
+                      >
+                        <use href="./imges/sprite.svg#icon-telegram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="link" href="">
+                      <svg
+                        class="icon-social icon-social-footer"
+                        width="20"
+                        height="20"
+                      >
+                        <use href="./imges/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item">
+                    <a class="link" href="">
+                      <svg
+                        class="icon-social icon-social-footer"
+                        width="20"
+                        height="20"
+                      >
+                        <use href="./imges/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
+
           <div class="footer-bootom-information">
             <p class="сopyright-text">
               &copy; ТОВ Furniture, працюємо з 2006 року
@@ -503,8 +538,12 @@
               <p class="glyanec-text">Глянець — розробка інтернет-магазинів</p>
             </div>
           </div>
+          <button type="button" class="button btn-up">
+            <svg class="icon-arrow-up" width="20" height="20">
+              <use href="./imges/sprite.svg#icon-arrow_up"></use>
+            </svg>
+          </button>
         </div>
-        <img src="./imges/footer-min.jpg" alt="interior" />
       </footer>
     </main>
   </body>
